@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import Navbar from '../../components/navbar/navbar';
+import './portfolio.scss';
 
 class portfolio extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <p>this is portfolio</p>
+                <h1 className='comingsoon'>Comming Soon...</h1>
             </div>
         )
     }
