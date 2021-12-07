@@ -6,12 +6,7 @@
 }
 @media screen and (max-width: 993px) {
     .App {
-        display: none !important;
+        /* display: none !important; */
     }
 }
 
-@media screen and (min-width: 993px) {
-.below_screen{
-    display: block !important;
-}
-}
