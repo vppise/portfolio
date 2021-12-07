@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 15px;
+
+.my_name{
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #B968C7;
+    cursor: pointer;
+}   
+
+.nav_links{
+    word-spacing: 15px;
+    margin-left: 30%;
+
+    .profile_links{
+        padding-left: 10px;
+        text-decoration: none;
+        color: gray;
+    }
+    .profile_links:hover{
+        color: #B968C7;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+}
+.link_selected{
+    color: #B968C7;
+    text-decoration: underline;
+}
+
+}

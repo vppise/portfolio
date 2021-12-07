@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+@media screen and (max-width: 993px) {
+    .App {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 993px) {
+.below_screen{
+    display: block !important;
+}
+}
