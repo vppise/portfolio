@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/navbar';
 import Profilepic from '../../assets/images/pic1.png'
 import Github from '../../assets/images/github.png';
 import Linkedin from '../../assets/images/linkedin.png';
+import Gmail from '../../assets/images/gmail.png';
 import './dashboard.scss';
 
 
@@ -22,6 +23,7 @@ class dashboard extends Component {
                         <div className='social_links'>
                             <img src={Github} alt='github' onClick={() => window.open('https://github.com/vppise')} />
                             <img src={Linkedin} alt='linkedin' onClick={() => window.open('https://www.linkedin.com/in/vikas-prakash-pise-l-i-o-n-094b4955/')} />
+                            <a href="mailto:vikasppise@gmail.com"><img src={Gmail} alt='gmail' /></a>
                         </div>
                     </div>
                 </div>
