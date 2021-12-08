@@ -9,12 +9,12 @@ function Navbar() {
 
     return (
         <div>
-            <nav class="navbar">
+            <nav className="navbar">
                 <span className="my_name" onClick={() => navigate('/')}>VIKAS PISE</span>
-                <div class="nav_links">
-                    <NavLink className='profile_links' activeClassName='link_selected' to='/portfolio'>PORTFOLIO</NavLink>
-                    <NavLink className='profile_links' activeClassName='link_selected' to='/projects'>PROJECTS</NavLink>
-                    <NavLink className='profile_links' activeClassName='link_selected' to='contact'>CONTACT</NavLink>
+                <div className="nav_links">
+                    <span style={{ color: window.location.pathname == '/portfolio' && '#B968C7' }} className='profile_links' onClick={() => navigate('/portfolio')} >PORTFOLIO</span>
+                    <span style={{ color: window.location.pathname == '/projects' && '#B968C7' }} className='profile_links' onClick={() => navigate('/projects')} >PROJECTS</span>
+                    <span style={{ color: window.location.pathname == '/contact' && '#B968C7' }} className='profile_links' onClick={() => navigate('/contact')} >CONTACT</span>
                 </div>
             </nav>
         </div>
